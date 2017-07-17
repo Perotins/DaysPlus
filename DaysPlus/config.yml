@@ -1,0 +1,21 @@
+########################3
+# DaysPlus
+# A simple plugin to increase the
+# amount of time of days / nights
+# in a word
+
+
+# Explanation of ticks
+# There are 24000 ticks in a full minecraft cycle. DaysPlus subtracts 1 tick every 'x'
+# seconds. This makes the days longer as it slowly decreases the rate at which ticks
+# occur at. 
+
+## IMPORTANT ##
+# Setting this to 1 will make it so time never changes. 
+# The lower this number (lowest is 2) the longer the days.
+# Note this is in TICKS. Not seconds. 20 ticks = 1 second.
+delete-tick-every: 5
+
+
+worlds:
+   - world
